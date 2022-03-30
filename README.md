@@ -15,12 +15,14 @@ With Type Inference we declare a variable without mentioning its type explicitly
     var variableName = initial Value;
 
 The nex code shows the following error: A value of type 'double' can't be assigned to a variable of type 'int' 
-main() {
-    var number = 3;
-    print(number);
-    number = 3.2;
-    print(number);
-}
+
+    main() {
+        var number = 3;
+        print(number);
+        number = 3.2;
+        print(number);
+    }
+
 Replacing var with num is known as type annotation, num is generic enough to store int and also store double.
 
 
@@ -28,14 +30,14 @@ Replacing var with num is known as type annotation, num is generic enough to sto
 
 If you want a variable that stores values of multiple types you can declare a variable using the dynamic keyword.
 
-main() {
-    dynamic dynamicVariable = 'A string';//String
-    print(dynamicVariable);
-    dynamicVariable = 5; // type int
-    print(dynamicVariable);
-    dynamicVariable = true; // type bool
-    print(dynamicVariable);
-}
+    main() {
+        dynamic dynamicVariable = 'A string';//String
+        print(dynamicVariable);
+        dynamicVariable = 5; // type int
+        print(dynamicVariable);
+        dynamicVariable = true; // type bool
+        print(dynamicVariable);
+    }
 
 
 ## DEFINE CONSTANTS
