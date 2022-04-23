@@ -8,11 +8,11 @@ It is an ability of Dart to infer types when they are not specified by the user.
 
 So far we have declared a variable with the syntax
 
-    dataType variableName = initial Value;
+    dataType variableName = initial_Value;
 
 With Type Inference we declare a variable without mentioning its type explicitly using the var keyword like so:
     
-    var variableName = initial Value;
+    var variableName = initial_Value;
 
 The nex code shows the following error: A value of type 'double' can't be assigned to a variable of type 'int' 
 
@@ -47,5 +47,15 @@ To create variables whose values cannot be changed, Dart uses the final and cons
 A final variable can only be assigned a value once at run time.
 
 A const variable can only be assigned a value once at compile time.
+
+
+## STRING INTERPOLATION
+
+It is a technique used to create new character strings or modify existing strings by embedding 
+variables or expressions within the strings.
+
+    “optional String $variableIdentifier optional String”
+
+    “optional String ${expression} optional String”
 
 
