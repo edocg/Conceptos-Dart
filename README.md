@@ -49,17 +49,16 @@ A final variable can only be assigned a value once at run time.
 A const variable can only be assigned a value once at compile time.
 
 
-## LISTAS
-Las listas son un conjunto ordenado de objetos.
-Esto significa que cada elemento en una lista tiene una posición fija. 
-Use una lista cuando necesite acceder a los objetos por índice.
+## LISTS
+Lists are ordered set of objects. Thi means that each element in a list has a fix position.
+You should use a list when you need to access to the objects by índex or fix position.
 
-  main() {
-      var lista = List<int>.filled(4, 20);
-      print(lista);
-      print(lista[1]);
-      print(lista.length);
-      var lista2 = [2, 4, 6];
-      lista2.add(12);
-      print(lista2);
-  }
+    main() {
+        var list = List<int>.filled(4, 20);
+        print(list);
+        print(list[1]);
+        print(list.length);
+        var list2 = [2, 4, 6];
+        list2.add(12);
+        print(list2);
+    }
