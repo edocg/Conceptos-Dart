@@ -59,3 +59,16 @@ variables or expressions within the strings.
     “optional String ${expression} optional String”
 
 
+## LISTS
+Lists are ordered set of objects. Thi means that each element in a list has a fix position.
+You should use a list when you need to access to the objects by índex or fix position.
+
+    main() {
+        var list = List<int>.filled(4, 20);
+        print(list);
+        print(list[1]);
+        print(list.length);
+        var list2 = [2, 4, 6];
+        list2.add(12);
+        print(list2);
+    }
